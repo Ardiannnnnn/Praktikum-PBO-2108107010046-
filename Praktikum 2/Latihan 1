@@ -1,16 +1,20 @@
+import java.util.Scanner;
 public class Satu {
         public static void main(String args[]) {
-            int a = 2;
-            int b = 3;
-            int c = 6 ;
-            double d = 0.5 ;
-            System.out.println("a + b = " + (a + b) );
-            System.out.println("b - a = " + (b - a) );
-            System.out.println("a * b = " + (a * b) );
-            System.out.println("c / b = " + (c / b) );
-            System.out.println("b % a = " + (b % a) );
-            System.out.println("b + d = " + (b + d) );
-            System.out.println("c / d = " + (c / d) );
+                Scanner input = new Scanner(System.in);
+            int num1, num2;
+            System.out.print("Masukkan nilai 1 = ");
+            num1 = input.nextInt();
+
+            System.out.print("Masukan nilai 2 = ");
+            num2 = input.nextInt();
+
+            System.out.println("num1 + num2 = " + (num1 + num2) );
+            System.out.println("num1 - num2 = " + (num1 - num2) );
+            System.out.println("num1 * num2 = " + (num1 * num2) );
+            System.out.println("num1 / num2 = " + ((float)num1 / num2) );
+            System.out.println("num1 % num2 = " + (num1 % num2) );
+
             
             
     }
